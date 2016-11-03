@@ -1,5 +1,5 @@
 {
-  "name": "lightning-line-inverted",
+  "name": "lightning-line",
   "version": "1.0.1",
   "dependencies": {
     "brfs": "^1.4.0",
