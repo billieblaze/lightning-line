@@ -1,5 +1,5 @@
 {
-  "name": "lightning-line",
+  "name": "lightning-line-inverted",
   "version": "1.0.1",
   "dependencies": {
     "brfs": "^1.4.0",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lightning-viz/lightning-line.git"
+    "url": "git+https://github.com/billieblaze/lightning-line.git"
   },
   "lightning": {
     "name": "line"

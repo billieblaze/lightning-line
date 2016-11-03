@@ -62,7 +62,7 @@ var Visualization = LightningAxisVisualization.extend({
 
 
             self.x = self.getXScale(xDomain);
-            self.y = self.getYScale(yDomain);
+            self.y = self.getYScale(yDomain).domain([yDomain[0] - 0.1 * ySpread, yDomain[1] + 0.1 * ySpread]).range([0, height]);
 
             self.xAxis = self.getXAxis(self.x);
             self.yAxis = self.getYAxis(self.y);
